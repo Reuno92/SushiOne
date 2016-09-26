@@ -1,0 +1,235 @@
+@media screen and (max-width:544px) {
+  main {
+    width:95%;
+  }
+
+  /*  /////////////////  Footer  /////////////////  */
+  .foot p {
+    font-size:1rem;
+  }
+
+  .foot li>a {
+    padding:0 !important;
+  }
+}
+
+/* Ecran large */
+@media (max-width: 1200px) {
+
+  div.desc {
+    padding: 0 0.95rem;
+  }
+
+  .prod-prix {
+    font-size: 1.95rem;
+    padding:0.25rem 0 0 0;
+    text-align: center;
+  }
+
+  /* //////////////// Menu Bootstrap ///////////////// */
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .collapse.in{
+    display:block !important;
+  }
+}
+
+/* ecran tablette paysage vers Ecran large */
+@media (min-width:980px) and (max-width:1199px) {
+
+  div.desc {
+    padding: 0 0.5rem;
+  }
+
+  p.desc {
+    display: block;
+    width: 80%;
+    margin-top: 0 !important;
+  }
+
+  h4.prod-nom {
+    display: block;
+    height:50px;
+    font-size: 2rem;
+    color: #f9f9f9;
+    font-weight: 600;
+    text-shadow: 0 0.0625rem 0.25rem #000;
+    margin-left: 0;
+  }
+
+  .prod-prix {
+    font-size: 2.5rem;
+    padding-top: .35rem;
+    text-align: left;
+  }
+
+  li>a>.btn.btn-primary {
+    margin-top:0;
+  }
+
+  .user-nav > a {
+    padding-left:0;
+  }
+
+}
+
+/* Tablette portrait vers paysage et ecran large */
+@media (min-width: 768px) and (max-width: 979px) {
+
+  input.number {
+    width: 3rem;
+  }
+
+  input.class {
+    float:left;
+  }
+
+  .prix {
+    font-size: 2.5rem;
+  }
+
+  .prod-nom {
+    display: block;
+    height: 50px;
+    font-size: 2rem;
+    color: #f9f9f9;
+    font-weight: 600;
+    text-shadow: 0 0.0625rem 0.25rem #000;
+    margin-left: 0;
+  }
+
+  input[class="ajout"] {
+    margin-right: 2rem !important;
+  }
+
+  p.desc {
+    display: block;
+    width: 80%;
+    height:50px;
+    margin-top:0 !important;
+  }
+}
+/* mobile paysage vers tablette portrait  */
+@media (min-width:481px) and (max-width: 767px) {
+/* ///////////////////////// Page connexion  //////////////////////////// */
+  section.inscription, section.connexion {
+    margin:0.625rem -10px 0.625rem;
+    border-radius:2rem 2rem 1rem 1rem;
+  }
+
+  form.inscription, form.connexion {
+    padding: 20px 20px 40px 20px;
+  }
+
+  input[type="submit"] {
+    margin-right: 0;
+  }
+
+  form.inscription input[type=text], form.inscription input[type=tel], form.inscription input[type=email], form.inscription input[type=password], form.connexion input[type=email], form.connexion input[type=password] {
+    width:100%;
+  }
+  form.inscription label, form.connexion label {
+    text-align:left;
+  }
+
+  li .btn-primary {
+    margin-top: 0;
+  }
+
+  li>a>.btn.btn-primary {
+    margin-top:0;
+  }
+
+  .user-nav > a {
+    padding-left:0;
+  }
+
+  .prix {
+    font-size:2.5rem;
+  }
+
+  .prod-nom {
+    height:50px;
+    font-size:2rem;
+    margin-left:0;
+  }
+
+
+}
+
+/* mobile paysage et moins */
+@media (max-width: 480px) and (min-width:320px) {
+  /* ///////////  Menu Bootstrap     //////////*/
+  .navbar-inverse {
+    background:linear-gradient(to bottom, #454545 0%,#222222 39%,#222222 92%);
+  }
+
+  button .btn .btn-primary {
+    margin-top: 0;
+  }
+
+  /* //////////////////// Carte  ////////////////////// */
+  .prod-nom {
+    font-size:2rem;
+    height:55px;
+    margin-left:0;
+  }
+
+  .prix {
+    font-size:1.75rem;
+    margin:-.5rem 0 0 -1rem;
+  }
+
+  p.desc {
+    height:70px;
+  }
+
+  li>a>.btn.btn-primary {
+    margin-top:0;
+  }
+
+  li.user-nav > a {
+    padding-left:0;
+  }
+
+  /* //////////////// Footer ///////////////////// */
+  .foot p {
+    font-size:0.75rem;
+    margin:0 10px 0 !important;
+  }
+
+  .foot ul {
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+}

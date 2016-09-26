@@ -1,0 +1,167 @@
+* {
+    /*border:1px dashed blue ;*/
+}
+
+body  {
+    background: url(../images/site/bg.png) no-repeat #222222;
+    background-size: 100%;
+}
+
+
+main {
+    width:80%;
+    margin-top:8rem;
+    border-radius:2rem 2rem 0 0;
+}
+
+main .panier {
+    min-height:1200px;
+}
+
+.carousel {
+    margin-top: 2rem;
+    border-radius:1rem;
+    border:1px solid #f7ecb5;
+}
+
+.carousel-inner {
+    /* pour eviter l'effet sans arrondis au passage des slides.*/
+    border-radius:1rem;
+}
+
+.carousel img {
+    border-radius:1rem
+}
+
+.carousel p {
+    text-align:center;
+    color:#f5f5f5;
+}
+
+section.connexion, section.inscription {
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    padding:0.5rem;
+    background: #333;
+    border: 0.0625rem solid #111;
+    border-radius:0.5rem;
+}
+
+form.connexion {
+    min-height:13rem;
+}
+
+form.inscription {
+    min-height:32rem;
+}
+
+form.connexion, form.inscription {
+    padding:2rem;
+    background: #444;
+    border: 0.0625rem solid #777777;
+    border-radius:0.5rem;
+}
+
+label {
+    display:block;
+    width:20rem;
+    float:left;
+    text-align:right;
+    margin-top:0.125rem;
+    padding-right:1rem;
+    color:#252525;
+}
+
+input[type=text],input[type=tel],input[type=email], input[type=password]{
+    width:50%;
+    margin-bottom:0.75rem;
+    padding-left:.5rem;
+    background: #333;
+    color:#ccc;
+    border: 1px solid #555;
+    border-radius: 0.25rem ;
+}
+
+.process-block {
+    text-align: center;
+    margin:1rem 0 0;
+}
+
+.process {
+    text-align:center;
+    background:#CCCCCC;
+    border:5px solid #222222;
+    padding:1.5rem 1rem;
+    font-weight:bolder;
+}
+
+.process-active {
+    text-align:center;
+    background:rgb(255,125,0);
+    color:whitesmoke;
+    border:5px solid #222222;
+    padding:1.5rem 1rem;
+    font-weight:bolder;
+}
+
+input[type="submit"] {
+    margin-top:1rem;
+    margin-right:1.5rem;
+    padding:auto 5rem;
+    background: #111111; /* vieux navigateur */
+    background: linear-gradient(to bottom, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);
+    box-shadow: 0 -1px 3px rgba(120,120,120, 0.7)inset, 0 1px 0 rgba(75,75,75, 0.65) , 0 2px 0 rgba(65,65,65, 0.5) , 0 3px 0 rgba(25,25,25, 0.3);
+    border:0.0625rem solid #666;
+    border-radius:10px;
+    color:#999;
+    transition: all ease .3s;
+    float:right;
+}
+
+input[type="submit"].ajout {
+    width:90%;
+    height:30px;
+    margin:0 auto;
+    padding:auto 5rem;
+    background: #111111; /* vieux navigateur */
+    background: linear-gradient(to bottom, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);    box-shadow: 0 -1px 3px rgba(120,120,120, 0.7)inset, 0 1px 0 rgba(75,75,75, 0.65) , 0 2px 0 rgba(65,65,65, 0.5) , 0 3px 0 rgba(25,25,25, 0.3);
+    border:0.0625rem solid #666;
+    border-radius:10px;
+    color:#999;
+    transition: all ease .3s;
+    float:left;
+}
+
+form.connexion input[type="submit"] {
+    margin-right: 0.5rem;
+}
+
+@media screen and (max-width:544px) {
+    main {
+        width:95%;
+    }
+}
+
+/* mobile paysage vers tablette portrait  */
+@media (max-width: 767px) {
+
+    section.inscription, section.connexion {
+        margin:0.625rem -10px 0.625rem;
+        border-radius:2rem 2rem 1rem 1rem;
+    }
+
+    form.inscription, form.connexion {
+        padding: 20px 20px 40px 20px;
+    }
+
+    input[type="submit"] {
+        margin-right: 0;
+    }
+
+    form.inscription input[type=text], form.inscription input[type=tel], form.inscription input[type=email], form.inscription input[type=password], form.connexion input[type=email], form.connexion input[type=password] {
+        width:100%;
+    }
+    form.inscription label, form.connexion label {
+        text-align:left;
+    }
+}

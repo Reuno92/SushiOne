@@ -1,0 +1,392 @@
+.lg {
+ width:100%;
+}
+
+
+a.panier {
+    padding:0 !important;
+}
+
+a img.media-object {
+    width:150px;
+}
+
+.produit {
+    margin: 3rem 0 3rem 0;
+}
+
+.presentation {
+    background: #333;
+}
+
+@media (max-width: 767px) {
+
+    li .btn-primary {
+        margin-top: 0;
+    }
+}
+
+/* /////////////// Page carte //////////////////// */
+/* /////////////// Selecteur ///////////////////// */
+
+h4.selector {
+    font-size:1.5rem;
+    margin:0.125rem 0 0.125rem
+}
+
+.selection {
+    width:100%;
+    margin:0;
+    padding:.75rem;
+    background: #111111;
+    border-radius:1rem 1rem 0 0;
+}
+
+.selection-list {
+    display:inline;
+    padding:0;
+    height:50px;
+}
+
+.selection-group, .selection-group-category {
+    padding:0;
+    cursor: pointer;
+}
+
+.selection-item, .selection-item-category {
+    display:inline-block;
+    background-color:#151515;
+    padding:0.125rem 1rem .125rem;
+    margin-bottom:.5rem;
+    border-radius:.625rem;
+    border:none;
+}
+
+.selection-item::first-letter, .selection-item-category::first-letter {
+    text-transform:uppercase;
+}
+
+.selection-item-category {
+    background: #151515;
+}
+
+.selection-item-category.active, .selection-item.active {
+    background: rgb(255,125,0);
+    color:#fff;
+}
+
+/* ////////////////// Produit ////////////////////// */
+
+.prod {
+    position:relative;
+    padding:0.5rem;
+    min-height:272px;
+    margin-bottom:3rem;
+}
+
+.prod:hover {
+    background: rgba(75,75,75,.5);
+    border-radius:.5rem;
+}
+
+
+.img-produit {
+    width:100%;
+    height:100px;
+    object-fit:contain;
+}
+
+.prod .desc {
+    position: relative;
+    height: 190px;
+}
+
+.prod-nom {
+    display:block;
+    width:100%;
+    height:30px;
+    font-size: 1.5rem;
+    color: #f9f9f9;
+    font-weight: 600;
+    text-shadow: 0 0.0625rem 0.25rem #000;
+    margin-top:1rem;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.row-bottom {
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    margin-left:0px;
+}
+
+.form-panier {
+    width:100%;
+}
+
+.prod-prix{
+    font-size:3rem;
+    font-weight:600;
+    color:rgb(255,125,0)!important;
+    background: none !important;
+    border:none !important;
+    text-align:center !important;
+}
+
+.prix span {
+    font-size:2rem;
+    vertical-align:super;
+}
+
+input.number {
+    width:4rem;
+    height:3rem;
+    text-align:center;
+    background:#333333;
+    border:1px solid #111111;
+    color:rgb(255,125,0);
+    font-size:1.5rem;
+    margin:0 auto 1%;
+}
+
+.wrap {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.col-input {
+    padding:0;
+    margin:0 0 0.25rem 0;
+}
+
+.col-price {
+    padding:0;
+}
+
+.prod-desc {
+    display: block;
+    width: 100%;
+    font-size:1.1rem;
+}
+
+input.submit {
+    width:100%;
+    margin:0.5rem auto;
+    text-align:center;
+    background:#333333;
+    color:rgb(255,125,0);
+    border:1px solid #111111;
+    border-radius:0.5rem;
+}
+
+article.categorie {
+    padding:1rem;
+    background: #151515;
+}
+
+/* //// Page banquet ///// */
+
+h4.galerie {
+    margin-top:20px;
+}
+
+table.horaire{
+    width:100%;
+    text-align:center;
+}
+
+
+td.horaire, th.horaire {
+    padding:0.1rem;
+    text-align:center;
+}
+
+th.horaire {
+    background:#999999;
+    color:#333333;
+    padding:0.25rem 0 0.25rem 0;
+    text-align:center
+}
+
+td.horaire {
+    background:#111111;
+    color:#888888;
+}
+
+th.horaire:first-child {
+    border-radius:0.5rem 0 0 0;
+}
+
+th.horaire:last-child {
+    border-radius:0 0.5rem 0 0;
+}
+
+th.horaire:nth-child(1) {
+    border-right:1px solid #333333;
+}
+
+td.horaire:nth-child(1) {
+    background:#151515;
+    border-right:1px solid #999999;
+}
+
+td.horaire:hover {
+    background:#1b1b1b;
+    color:#FF7D00;
+    cursor:pointer;
+}
+
+h5.sushione {
+    color:#C3C3C3;
+    font-size:2rem;
+    font-weight:600;
+}
+
+.thumbnail {
+    background-color: #333333;
+    border: 1px solid #555555;
+}
+
+a.thumbnail:hover,
+a.thumbnail:focus {
+    border-color:#FF7D00;
+}
+
+/* Page panier */
+.panier-vide {
+    padding:3.75rem 0 5.25rem 3rem;
+    margin-right:-1rem;
+}
+.panier-vide, .panier-plein, .panier-info {
+border-radius:1rem;
+}
+
+.panier-vide, .panier-plein, .panier-info, .action-dynamique {
+    background: #252525;
+}
+
+.action-dynamique {
+    margin-top:2rem;
+    padding:10rem;
+}
+
+
+/* //// Responsive  /// */
+
+
+    /* Ecran large */
+    @media (max-width: 1200px) {
+
+        div.desc {
+            padding: 0 0.95rem;
+        }
+
+        .prod-prix {
+            font-size: 1.95rem;
+            padding:0.25rem 0 0 0;
+            text-align: center;
+        }
+    }
+
+    /* ecran tablette paysage vers Ecran large */
+    @media (min-width:980px) and (max-width:1199px) {
+
+        div.desc {
+            padding: 0 0.5rem;
+        }
+
+        p.desc {
+            display: block;
+            width: 80%;
+            margin-top: 0 !important;
+        }
+
+        h4.prod-nom {
+            display: block;
+            height:50px;
+            font-size: 2rem;
+            color: #f9f9f9;
+            font-weight: 600;
+            text-shadow: 0 0.0625rem 0.25rem #000;
+            margin-left: 0;
+        }
+
+        .prod-prix {
+            font-size: 2.5rem;
+            padding-top: .35rem;
+            text-align: left;
+        }
+    }
+
+
+
+    /* Tablette portrait vers paysage et ecran large */
+    @media (min-width: 768px) and (max-width: 979px) {
+
+        input.number {
+            width: 3rem;
+        }
+
+        input.class {
+            float:left;
+        }
+
+        .prix {
+            font-size: 2.5rem;
+        }
+
+        .prod-nom {
+            display: block;
+            height: 50px;
+            font-size: 2rem;
+            color: #f9f9f9;
+            font-weight: 600;
+            text-shadow: 0 0.0625rem 0.25rem #000;
+            margin-left: 0;
+        }
+
+        input[class="ajout"] {
+            margin-right: 2rem !important;
+        }
+
+        p.desc {
+            display: block;
+            width: 80%;
+            height:50px;
+            margin-top:0 !important;
+        }
+    }
+    /* mobile paysage vers tablette portrait  */
+    @media (min-width:481px) and (max-width: 767px) {
+        .prix {
+            font-size:2.5rem;
+        }
+
+        .prod-nom {
+            height:50px;
+            font-size:2rem;
+            margin-left:0;
+        }
+    }
+
+    /* mobile paysage et moins */
+    @media (max-width: 480px) and (min-width:320px) {
+        .prod-nom {
+            font-size:2rem;
+            height:55px;
+            margin-left:0;
+        }
+
+        .prix {
+            font-size:1.75rem;
+            margin:-.5rem 0 0 -1rem;
+        }
+
+        p.desc {
+            height:70px;
+        }
+
+    }
+
+

@@ -1,0 +1,180 @@
+
+/* Page générique */
+
+body  {
+  background: url(../images/site/bg2.png) no-repeat #222222;
+  background-size: 100%;
+}
+
+main {
+  width:80%;
+  margin-top:8rem;
+  border-radius:2rem 2rem 0 0;
+  background: #222222;
+}
+
+h2 {
+  color:#f9f9f9;
+  font-weight:800;
+  text-align:center;
+}
+
+h3 {
+  color:#f9f9f9;
+}
+
+h4 {
+  font-size:2.5rem;
+  color:#f9f9f9;
+  font-weight:600;
+  text-shadow: 0 0.0625rem 0.25rem #000;
+}
+
+h2.form {
+  margin-top:0.75rem;
+}
+
+/* A voir ou ça se trouve */
+input[type="submit"] {
+  margin-top:1rem;
+  margin-right:1.5rem;
+  padding:auto 5rem;
+  background: #111111; /* vieux navigateur */
+  background: linear-gradient(to bottom, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);
+  box-shadow: 0 -1px 3px rgba(120,120,120, 0.7)inset, 0 1px 0 rgba(75,75,75, 0.65) , 0 2px 0 rgba(65,65,65, 0.5) , 0 3px 0 rgba(25,25,25, 0.3);
+  border:0.0625rem solid #666;
+  border-radius:10px;
+  color:#999999;
+  transition: all ease .3s;
+  float:right;
+}
+
+.lg {
+  width:100%;
+}
+
+.navbar-inverse {
+  background: linear-gradient(to bottom, #454545 0%,#222222 39%,#222222 92%,#454545 97%,#222222 100%);
+}
+
+nav li a {
+  color:rgb(255,125,0);
+}
+
+p {
+  color:#b9b9b9;
+  text-align:left;
+}
+
+/*/////////   Menu Bootstrap   //////*/
+.btn-quantite {
+  background: #454545 !important;
+  margin:0.5rem 0 0.5rem 0 !important;
+  border-radius: .5rem !important;
+}
+
+.btn-default {
+  font-weight:bold;
+}
+
+.btn-primary, .btn-default {
+  background: rgb(255, 125, 0);
+  border-color: rgb(255, 125, 0);
+}
+
+.btn-primary:hover, .btn-default:hover {
+  background: rgb(187, 103, 0);
+  border-color: rgb(255, 125, 0);
+}
+
+.btn-primary:focus, .btn-primary:active, .btn-primary:active:hover, .btn-primary:active:focus,
+.btn-default:focus, .btn-default:active, .btn-primary:active:hover, .btn-primary:active:focus {
+  background: rgb(200, 115, 0);
+  border-color: rgb(255, 125, 0);
+  box-shadow:0 0.0625rem 0.125rem #333333 inset;
+}
+
+header li.highlight>a{
+  background: rgb(255, 125, 0);
+  color:#f9f9f9;
+}
+
+.btn span.badge {
+  color:#555555;
+}
+
+/* CGV */
+ul.cgv {
+  color:#f5f5f5;
+}
+
+h3.cgv {
+  color:#FF7D00;
+}
+
+header .nav>li>a:hover {
+  background: #111111;
+}
+
+header .btn-primary:hover  {
+  background: rgb(175, 85, 0);
+  border-color: rgb(175, 85, 0);
+}
+
+header .nav>li>a:focus {
+  background: rgb(255,125,0);
+  color: white;
+}
+
+header .btn-primary .badge:hover {
+  color:rgb(175,85,0);
+}
+
+/* ///// Footer ////*/
+
+footer {
+
+}
+
+.foot {
+
+  width:100%;
+  height:3rem;
+  background: linear-gradient(to bottom, #333333 0%,#0a0e0a 1%,#222222 3%,#333333 100%);
+}
+
+.foot ul {
+  margin:0;
+  padding:0.5rem 3rem 0.5rem 3rem;
+  float:left;
+}
+
+.foot ul>li {
+  display:inline-block
+}
+
+.foot li>a {
+  display:inline;
+  padding:0.5rem 0.5rem;
+}
+
+.foot li>a:hover {
+  text-decoration:none;
+  background:#111111;
+}
+
+.foot p {
+  float:right;
+  margin:0 30px !important;
+  line-height:30px;
+}
+
+.novalid {
+  display:block;
+  padding:0.25rem;
+  border:1px solid #222222;
+  border-radius:5px;
+  background: #333333;
+  color:darkred;
+  box-shadow: 0 1px 1px white;
+}

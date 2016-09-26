@@ -1,0 +1,134 @@
+main .panier {
+  min-height:1200px;
+}
+
+/* processus de paiement */
+.process-block {
+  text-align: center;
+  margin:1rem 0 0;
+}
+
+.process {
+  text-align:center;
+  background:#CCCCCC;
+  border:5px solid #222222;
+  padding:1.5rem 1rem;
+  font-weight:bolder;
+}
+
+.process-active {
+  text-align:center;
+  background:rgb(255,125,0);
+  color:whitesmoke;
+  border:5px solid #222222;
+  padding:1.5rem 1rem;
+  font-weight:bolder;
+}
+
+input[type="submit"].ajout {
+  width:90%;
+  height:30px;
+  margin:0 auto;
+  padding:auto 5rem;
+  background: #111111; /* vieux navigateur */
+  background: linear-gradient(to bottom, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);    box-shadow: 0 -1px 3px rgba(120,120,120, 0.7)inset, 0 1px 0 rgba(75,75,75, 0.65) , 0 2px 0 rgba(65,65,65, 0.5) , 0 3px 0 rgba(25,25,25, 0.3);
+  border:0.0625rem solid #666;
+  border-radius:10px;
+  color:#999;
+  transition: all ease .3s;
+  float:left;
+}
+
+a.panier {
+  padding:0 !important;
+}
+
+.panier-vide {
+  padding:3.75rem 0 5.25rem 3rem;
+  margin-right:-1rem;
+}
+.panier-vide, .panier-plein, .panier-info {
+  border-radius:1rem;
+}
+
+.panier-vide, .panier-plein, .panier-info, .action-dynamique {
+  background: #252525;
+}
+
+.action-dynamique {
+  margin-top:2rem;
+  padding:10rem;
+}
+
+.produit-item {
+  padding:1.5rem 0 0 0;
+  margin:0 5px;
+}
+
+.panier-plein {
+  text-align:center;
+}
+
+.panier-titre {
+  color:#CCCCCC;
+  font-weight:bold;
+}
+
+.panier-nom {
+  width:50%;
+}
+
+.panier-quantite,.panier-action {
+  width:5%;
+}
+
+.panier-prix {
+  width:10%;
+}
+
+.panierProduit {
+  color:#CCCCCC;
+}
+
+.panierProduit:nth-child(odd) {
+  background: #555555;
+}
+
+.produit-number {
+  width:100%;
+  margin:0 1rem 0 0;
+  height:2.5rem;
+  background:rgba(75,75,75,.75);
+  border:none;
+  border-radius:0;
+  text-align:center;
+  color:rgb(255,125,0);
+  font-size:1.5rem;
+}
+
+.montant {
+  margin-left:5px;
+  font-size:1.95rem;
+}
+
+.montant sup {
+  font-size:1.75rem;
+}
+
+.panierMontant {
+  color:rgb(255,125,0);
+}
+
+.panierHT, .panierMontant {
+  font-size:3rem;
+  font-weight:bold;
+}
+
+form.commande {
+  margin-bottom:3rem;
+}
+
+img.partner {
+  width:100%;
+  margin-bottom:1rem;
+}

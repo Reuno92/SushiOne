@@ -1,0 +1,47 @@
+section.connexion, section.inscription {
+  margin-top:1rem;
+  margin-bottom: 1rem;
+  padding:0.5rem;
+  background: #333;
+  border: 0.0625rem solid #111;
+  border-radius:0.5rem;
+}
+
+form.connexion {
+  min-height:13rem;
+}
+
+form.inscription {
+  min-height:32rem;
+}
+
+form.connexion, form.inscription {
+  padding:2rem;
+  background: #444;
+  border: 0.0625rem solid #777777;
+  border-radius:0.5rem;
+}
+
+label {
+  display:block;
+  width:20rem;
+  float:left;
+  text-align:right;
+  margin-top:0.125rem;
+  padding-right:1rem;
+  color:#252525;
+}
+
+input[type=text],input[type=tel],input[type=email], input[type=password]{
+  width:50%;
+  margin-bottom:0.75rem;
+  padding-left:.5rem;
+  background: #333;
+  color:#ccc;
+  border: 1px solid #555;
+  border-radius: 0.25rem ;
+}
+
+form.connexion input[type="submit"] {
+  margin-right: 0.5rem;
+}

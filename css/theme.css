@@ -1,0 +1,349 @@
+
+.navbar-inverse {
+    background: linear-gradient(to bottom, #454545 0%,#222222 39%,#222222 92%,#454545 97%,#222222 100%);
+}
+
+nav li a {
+    color:rgb(255,125,0);
+}
+
+.btn-quantite {
+    background: #454545 !important;
+    margin:0.5rem 0 0.5rem 0 !important;
+    border-radius: .5rem !important;
+}
+
+.btn-quantite {
+    background: #454545 !important;
+    margin:0.5rem 0 0.5rem 0 !important;
+    border-radius: .5rem !important;
+}
+
+.btn-default {
+    font-weight:bold;
+}
+
+.btn-primary, .btn-default {
+    background: rgb(255, 125, 0);
+    border-color: rgb(255, 125, 0);
+}
+
+.btn-primary:hover, .btn-default:hover {
+    background: rgb(187, 103, 0);
+    border-color: rgb(255, 125, 0);
+}
+
+.btn-primary:focus, .btn-primary:active, .btn-primary:active:hover, .btn-primary:active:focus,
+.btn-default:focus, .btn-default:active, .btn-primary:active:hover, .btn-primary:active:focus {
+    background: rgb(200, 115, 0);
+    border-color: rgb(255, 125, 0);
+    box-shadow:0 0.0625rem 0.125rem #333333 inset;
+}
+
+header li.highlight>a{
+    background: rgb(255, 125, 0);
+    color:#f9f9f9;
+}
+
+.btn span.badge {
+    color:#555555;
+}
+
+main {
+    background: #222222;
+}
+
+.produit .media {
+    padding:20rem 0 0 0;
+    height:35rem;
+    vertical-align:bottom;
+    border-radius:1rem;
+    box-shadow: 0 0.625rem 0.5rem #000000;
+}
+
+.media img {
+    width:25rem;
+    margin-top:0;
+    position:absolute;
+}
+
+.media-body {
+    width:100%;
+    padding:1.5rem;
+    background: rgba(0,0,0,.25);
+}
+
+.media-text {
+    color:white;
+    font-size:1.125rem;
+}
+
+.produit .maki {
+    background: url("../images/site/bg_1.jpg") no-repeat;
+    background-size: cover;
+}
+
+.produit .sashimi {
+    padding:20rem 0 0 0;
+    background: url("../images/site/bg_2.jpg") no-repeat;
+    background-size: cover;
+}
+
+.produit .sushi {
+    background: url("../images/site/bg_3.jpg") no-repeat;
+    background-size: cover;
+}
+
+.produit .temaki {
+    background: url("../images/site/bg_4.jpg") no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    color:#f9f9f9;
+    font-weight:800;
+    text-align:center;
+}
+
+h2.form {
+    margin-top:0.75rem;
+}
+
+.produit h4 {
+    text-align:left;
+}
+
+h3 {
+    color:#f9f9f9;
+}
+
+h4 {
+    font-size:2.5rem;
+    color:#f9f9f9;
+    font-weight:600;
+    text-shadow: 0 0.0625rem 0.25rem #000;
+}
+
+h4.heading {
+    margin-left:0;
+}
+
+h4.présentation {
+    margin-left:20px;
+}
+
+p {
+    color:#b9b9b9;
+    text-align:left;
+}
+
+
+/* ///// Page d'accueil //// */
+
+.presentation p {
+    width:100%;
+    text-align:center;
+    padding: 0.5rem 2rem 3rem 2rem;
+}
+
+.presentation p span.glyphicon {
+    font-size:15rem;
+    text-shadow: 0 5px 3px #111111;
+}
+
+.presentation p.vente {
+    text-align:left;
+}
+
+span.kanji {
+    color:rgb(255,125,0);
+    text-shadow:0 1px 0 #111111;
+}
+
+span.kanji:hover {
+    color:#f9f9f9;
+}
+
+/* ///// Carte ////// */
+
+h1.carte {
+    color:rgb(255,125,0);
+    text-shadow:0 0.25rem 0.0625rem #555555;
+    margin-left:2rem;
+    text-align: center;
+}
+
+h1.carte:first-letter{
+    text-transform:uppercase;
+}
+
+div.categorie {
+    background: #333333;
+}
+
+/* ///// Footer ////*/
+
+footer {
+
+}
+
+.foot {
+
+    width:100%;
+    height:3rem;
+    /*border-top:1px solid #555555;*/
+    background: linear-gradient(to bottom, #333333 0%,#0a0e0a 1%,#222222 3%,#333333 100%);
+}
+
+.foot ul {
+    margin:0;
+    padding:0.5rem 3rem 0.5rem 3rem;
+    float:left;
+}
+
+.foot ul>li {
+    display:inline-block
+}
+
+.foot li>a {
+    display:inline;
+    padding:0.5rem 0.5rem;
+}
+
+.foot li>a:hover {
+    text-decoration:none;
+    background:#111111;
+}
+
+.foot p {
+    float:right;
+    margin:0 30px !important;
+    line-height:30px;
+}
+
+.novalid {
+    display:block;
+    padding:0.25rem;
+    border:1px solid #222222;
+    border-radius:5px;
+    background: #333333;
+    color:darkred;
+    box-shadow: 0 1px 1px white;
+}
+
+@media screen and (max-width:544px) {
+    .foot p {
+        font-size:1rem;
+    }
+
+    .foot li>a {
+        padding:0 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-inverse {
+        background:linear-gradient(to bottom, #454545 0%,#222222 39%,#222222 92%);
+    }
+
+    button .btn .btn-primary {
+        margin-top: 0;
+    }
+
+    .foot p {
+        font-size:0.75rem;
+        margin:0 10px 0 !important;
+    }
+
+    .foot ul {
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+}
+
+/* ////////////////  Page Panier ////////////////// */
+
+.produit-item {
+    padding:1.5rem 0 0 0;
+    margin:0 5px;
+}
+
+.panier-plein {
+    text-align:center;
+}
+
+.panier-titre {
+    color:#CCCCCC;
+    font-weight:bold;
+}
+
+.panier-nom {
+    width:50%;
+}
+
+.panier-quantite,.panier-action {
+    width:5%;
+}
+
+.panier-prix {
+    width:10%;
+}
+
+.panierProduit {
+    color:#CCCCCC;
+}
+
+
+.panierProduit:nth-child(odd) {
+    background: #555555;
+}
+
+.produit-number {
+    width:100%;
+    margin:0 1rem 0 0;
+    height:2.5rem;
+    background:rgba(75,75,75,.75);
+    border:none;
+    border-radius:0;
+    text-align:center;
+    color:rgb(255,125,0);
+    font-size:1.5rem;
+}
+
+.montant {
+    margin-left:5px;
+    font-size:1.95rem;
+}
+
+.montant sup {
+    font-size:1.75rem;
+}
+
+.panierMontant {
+    color:rgb(255,125,0);
+}
+
+.panierHT, .panierMontant {
+    font-size:3rem;
+    font-weight:bold;
+}
+
+form.commande {
+    margin-bottom:3rem;
+}
+
+img.partner {
+    width:100%;
+    margin-bottom:1rem;
+}
+
+/* /////////////////////////// Page CGV /////////////////////// */
+
+ul.cgv {
+    color:#f5f5f5;
+}
+
+h3.cgv {
+    color:#FF7D00;
+}

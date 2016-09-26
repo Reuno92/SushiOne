@@ -1,0 +1,107 @@
+.carousel {
+  margin-top: 2rem;
+  border-radius:1rem;
+  border:1px solid #f7ecb5;
+}
+
+.carousel-inner {
+  /* pour eviter l'effet sans arrondis au passage des slides.*/
+  border-radius:1rem;
+}
+
+.carousel img {
+  border-radius:1rem
+}
+
+.carousel p {
+  text-align:center;
+  color:#f5f5f5;
+}
+
+.produit {
+  margin: 3rem 0 3rem 0;
+}
+
+.presentation {
+  background: #333;
+}
+
+.presentation p {
+  width:100%;
+  text-align:center;
+  padding: 0.5rem 2rem 3rem 2rem;
+}
+
+.presentation p span.glyphicon {
+  font-size:15rem;
+  text-shadow: 0 5px 3px #111111;
+}
+
+.presentation p.vente {
+  text-align:left;
+}
+
+span.kanji {
+  color:rgb(255,125,0);
+  text-shadow:0 1px 0 #111111;
+}
+
+span.kanji:hover {
+  color:#f9f9f9;
+}
+.produit .media {
+  padding:20rem 0 0 0;
+  height:35rem;
+  vertical-align:bottom;
+  border-radius:1rem;
+  box-shadow: 0 0.625rem 0.5rem #000000;
+}
+
+.media img {
+  width:25rem;
+  margin-top:0;
+  position:absolute;
+}
+
+.media-body {
+  padding:1.5rem;
+  background: rgba(0,0,0, .25);
+}
+
+.media-text {
+  color:white;
+  font-size:1.125rem;
+}
+
+.produit .maki {
+  background: url("../images/site/bg_1.jpg") no-repeat;
+  background-size: cover;
+}
+
+.produit .sashimi {
+  padding:20rem 0 0 0;
+  background: url("../images/site/bg_2.jpg") no-repeat;
+  background-size: cover;
+}
+
+.produit .sushi {
+  background: url("../images/site/bg_3.jpg") no-repeat;
+  background-size: cover;
+}
+
+.produit .temaki {
+  background: url("../images/site/bg_4.jpg") no-repeat;
+  background-size: cover;
+}
+
+.produit h4 {
+  text-align:left;
+}
+
+h4.heading {
+  margin-left:0;
+}
+
+h4.presentation {
+  margin-left:20px;
+}

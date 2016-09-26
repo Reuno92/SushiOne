@@ -1,0 +1,17 @@
+header .nav>li>a:hover {
+    background: #111111;
+}
+
+header .btn-primary:hover  {
+    background: rgb(175, 85, 0);
+    border-color: rgb(175, 85, 0);
+}
+
+header .nav>li>a:focus {
+    background: rgb(255,125,0);
+    color: white;
+}
+
+header .btn-primary .badge:hover {
+    color:rgb(175,85,0);
+}

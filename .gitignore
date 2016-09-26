@@ -1,0 +1,16 @@
+.idea
+/sql/*
+.sass-cache/
+/css/accueil.css
+/css/carteBanquet.css
+/css/connexion.css
+/css/generique.css
+/css/panier.css
+/css/responsive.css
+/css/variables.css
+/css/main.css
+/admin/js/
+/stylesheets/
+/Database.php
+/images/*/*.psd
+/images/*/*.txt
